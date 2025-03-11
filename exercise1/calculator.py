@@ -16,11 +16,12 @@ def add(a: Number, b: Number) -> Number:
     Returns:
         The sum of a and b
     """
-    # TODO: Implement this function
-    pass
+    # TODO: Implement this function 
+    return a+b
 
 
 def subtract(a: Number, b: Number) -> Number:
+    result = a-b
     """
     Return the result of subtracting b from a.
 
@@ -32,7 +33,7 @@ def subtract(a: Number, b: Number) -> Number:
         The result of a - b
     """
     # TODO: Implement this function
-    pass
+    return a-b
 
 
 def multiply(a: Number, b: Number) -> Number:
@@ -47,7 +48,7 @@ def multiply(a: Number, b: Number) -> Number:
         The product of a and b
     """
     # TODO: Implement this function
-    pass
+    return a*b
 
 
 def divide(a: Number, b: Number) -> Number:
@@ -64,5 +65,9 @@ def divide(a: Number, b: Number) -> Number:
     Raises:
         ValueError: If b is 0
     """
+
     # TODO: Implement this function
-    pass
+    if b !=0:
+        return(a/b)
+    else:
+        return("error canot divide by 0")
