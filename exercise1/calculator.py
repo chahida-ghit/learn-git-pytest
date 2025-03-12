@@ -70,4 +70,4 @@ def divide(a: Number, b: Number) -> Number:
     if b !=0:
         return(a/b)
     else:
-        return("error canot divide by 0")
+        raise ValueError ("Cannot divide by zero")
